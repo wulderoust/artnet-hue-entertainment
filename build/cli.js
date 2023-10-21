@@ -124,31 +124,31 @@ class ArtNetHueEntertainmentCliHandler {
                 hueUsername: username,
                 hueClientKey: clientKey,
                 entertainmentRoomId: 200,
-                artNetBindIp: '172.24.184.16',
+                artNetBindIp: '127.0.0.1',
                 lights: [
                     {
                         dmxStart: 1,
-                        lightId: '31',
+                        lightId: '8',
                         channelMode: '8bit-dimmable',
                     },
                     {
                         dmxStart: 5,
-                        lightId: '32',
+                        lightId: '10',
                         channelMode: '8bit-dimmable',
                     },
                     {
                         dmxStart: 9,
-                        lightId: '33',
+                        lightId: '11',
                         channelMode: '8bit-dimmable',
                     },
                     {
                         dmxStart: 13,
-                        lightId: '34',
+                        lightId: '12',
                         channelMode: '8bit-dimmable',
                     },
                     // {
-                    //     dmxStart: 5,
-                    //     lightId: '11',
+                    //     dmxStart: 55,
+                    //     lightId: '21',
                     //     channelMode: '8bit-dimmable',
                     // },
                 ]
